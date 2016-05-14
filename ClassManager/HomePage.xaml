@@ -33,10 +33,10 @@
             <AppBarButton Icon="ShowBcc" Margin="30,20,0,0" IsCompact="True" RelativePanel.AlignRightWithPanel="True" >
                 <AppBarButton.Flyout>
                     <MenuFlyout>
-                        <MenuFlyoutItem FontStyle="Italic" x:Name="Setting" Text="Setting" Click="setting_Click"/>
-                        <MenuFlyoutItem FontStyle="Italic" x:Name="create" Text="Setup Class" Click="create_Click"/>
-                        <MenuFlyoutItem FontStyle="Italic" x:Name="join" Text="Join Class" Click="join_Click"/>
-                        <MenuFlyoutItem FontStyle="Italic" x:Name="Logout" Text="Logout" Click="logout_Click"/>
+                        <MenuFlyoutItem FontStyle="Italic" x:Name="Setting" Text="设置" Click="setting_Click"/>
+                        <MenuFlyoutItem FontStyle="Italic" x:Name="create" Text="创建班级" Click="create_Click"/>
+                        <MenuFlyoutItem FontStyle="Italic" x:Name="join" Text="加入班级" Click="join_Click"/>
+                        <MenuFlyoutItem FontStyle="Italic" x:Name="Logout" Text="退出登录" Click="logout_Click"/>
                     </MenuFlyout>
                 </AppBarButton.Flyout>
             </AppBarButton>
