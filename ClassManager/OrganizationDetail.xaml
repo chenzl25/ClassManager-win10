@@ -132,6 +132,7 @@
                     <StackPanel Grid.Row="4" Grid.Column="2" Orientation="Horizontal">
                         <AppBarButton x:Name="ToHomePage"
                             Icon="Home"
+									  Margin="-10,0,0,0"
 							Click="ToHomePageClick"
                             AutomationProperties.Name="Home"
                             ToolTipService.ToolTip="Home"/>
